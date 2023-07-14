@@ -9,9 +9,13 @@ We consider left hand rule, trapezoidal rule, and Gauss quadrature for the quadr
 We consider two examples with the integrands f(x,y)=x^2+y^2 and f(x,y)=cos(1/2*( x^2 + y^2)) on the "C" shaped domain.
 
 Run the first example with:
+
 include("greens_comp.jl")
+
 greens_comp()
 
 Run the second example with:
+
 include("greens_comp2.jl")
+
 greens_comp()
